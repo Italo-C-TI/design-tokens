@@ -1,5 +1,5 @@
 {
-  "source": ["input/**/*.json"],
+  "source": ["tokens/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
@@ -14,7 +14,7 @@
       "buildPath": "build/js/",
       "files": [{
         "destination": "tokens.js",
-        "format": "javascript/module-flat"
+        "format": "javascript/es6"
       }]
     }
     }
